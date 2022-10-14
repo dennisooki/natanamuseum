@@ -1,0 +1,101 @@
+
+.Login-Visible {
+    transition: all 2s ease;
+    opacity: 1;
+    
+}
+
+.Login-Visible input {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 175px;
+    font-family: 'LiberationMono';
+    color: black;
+    background-color: rgba(177, 177, 177, 0.2);
+    border-radius: 20px;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: purple;
+    color: palegreen;
+    transition: all 2s ease;
+}
+.Login-Visible input[type="email"]:focus {
+    text-align: center;
+    width: 250px;  
+    margin-left:35px;
+    outline: none;
+    transition: all 2s ease;
+}
+
+
+
+.Login-Visible button
+{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(177, 177, 177, 0.2);
+    color: white;
+    font-family: 'GoodTimes';
+    text-align: center;
+    width: 95px;
+    margin-left: 9px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: purple;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+
+#signuptoggle{
+    font-family: 'LiberationMono';
+    opacity: 0.7;
+    border-color: rebeccapurple;
+    margin: 0px;
+    font-size: 12px;
+    width: 70px;
+}
+
+
+.Login-Visible button:nth-of-type(2),
+.Login-Visible button:nth-of-type(4)
+{
+    position: relative;
+    margin-left: 25%;
+}
+
+.Login-Visible button:nth-of-type(3) {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20px;
+    cursor: alias;
+    width: fit-content;
+}
+
+.Login-Visible span {
+    transition: all 1s ease;
+    color: rebeccapurple;
+}
+.Login-Visible p span:hover {
+    color: palegreen;
+    cursor: pointer;
+}
+
+.MiniMascot {
+    height: 20vh;
+    max-height: 60vw;
+    transition: all 2s ease;
+    opacity: 0.5;
+
+}
+
+.Mascot-Splash{
+    transition: all 2s ease;
+    opacity: 1;
+    height: 40vh;
+    max-height: 80vw;
+}
+
+/* more css */
+/* -------------------------- */

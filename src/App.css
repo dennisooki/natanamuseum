@@ -1,0 +1,80 @@
+img{
+  pointer-events: none;
+}
+.App {
+  color: white;
+  background-color: black;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  position: relative;
+  font-family: 'GoodTimes';
+  max-height:100vh
+  
+}
+
+.Login {
+  position: relative;
+  transition: all 2s ease;
+  opacity: 0;
+}
+
+
+
+.B4Mascot {
+  height: 20vh;
+  max-height: 60vw;
+  transition: all 2s ease;
+  opacity: 0;
+  
+}
+
+.Mascot {
+  height: 60vh;
+  max-height: 60vw;
+  transition: all 2s ease;
+  opacity: 1;
+  
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .Mascot {
+    height: 60vh;
+    max-height: 80vw;
+    transition: all 2s ease;
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
