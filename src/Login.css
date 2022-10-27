@@ -17,7 +17,7 @@
     border-right-style: hidden;
     border-bottom-style: groove;
     border-bottom-color: purple;
-    color: palegreen;
+    color: whitesmoke;
     transition: all 2s ease;
 }
 .Login-Visible input[type="email"]:focus {
@@ -26,13 +26,15 @@
     margin-left:35px;
     outline: none;
     transition: all 2s ease;
+    color: palegoldenrod;
+    border-bottom-color: goldenrod;
 }
 
 
 
 .Login-Visible button
 {
-    margin-top: 20px;
+    margin-top: 15px;
     border-radius: 20px;
     background-color: rgba(177, 177, 177, 0.2);
     color: white;
@@ -55,6 +57,17 @@
     margin: 0px;
     font-size: 12px;
     width: 70px;
+}
+
+.pwdstrength{
+    
+    display:inline-table; 
+
+}
+@media only screen and (max-width: 768px) {
+    .pwdstrength{
+    display: grid;
+    } 
 }
 
 

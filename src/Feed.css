@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+    color: white;
+    
+}
+.Feed{
+    color: white;
+    background-color: black;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    position: relative;
+    font-family: 'GoodTimes';
+    max-height:100vh;
+    overflow: hidden;
+}

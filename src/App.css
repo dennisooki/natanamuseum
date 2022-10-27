@@ -9,8 +9,8 @@ img{
   place-items: center;
   position: relative;
   font-family: 'GoodTimes';
-  max-height:100vh
-  
+  max-height:100vh;
+  overflow: hidden;
 }
 
 .Login {
