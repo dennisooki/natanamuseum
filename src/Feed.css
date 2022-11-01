@@ -11,6 +11,51 @@
     place-items: center;
     position: relative;
     font-family: 'GoodTimes';
-    max-height:100vh;
-    overflow: hidden;
+    
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 20%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rebeccapurple;
+    
+  }
+
+  .Headnote{
+    height:10vh;
+    display: inline-flex;
+    place-items: center;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    
+  }
+  .Headnote img{
+    height: inherit;
+  }
+
+  /* Mobile */
+@media only screen and (max-width: 768px) {
+
+    
+.Exhibition img{
+    width: 100vw;
+  }
 }
